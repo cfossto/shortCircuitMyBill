@@ -9,7 +9,7 @@ class Prices:
         max_price = 275
         prices = df[0].iloc[:,:]
 
-        print(prices.loc[2])
+        print(prices)
 
 
 Prices().get_prices()
